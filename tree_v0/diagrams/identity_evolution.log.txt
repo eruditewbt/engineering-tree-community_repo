@@ -1,0 +1,11 @@
+Generating single mermaid chart
+
+Error: spawn EPERM
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:795:9)
+    at new Process (file:///C:/Users/eruditewbt/AppData/Roaming/npm/node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers/lib/esm/launch.js:139:45)
+    at launch (file:///C:/Users/eruditewbt/AppData/Roaming/npm/node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers/lib/esm/launch.js:44:12)
+    at ChromeLauncher.launch (file:///C:/Users/eruditewbt/AppData/Roaming/npm/node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core/lib/esm/puppeteer/node/BrowserLauncher.js:70:32)
+    at async run (file:///C:/Users/eruditewbt/AppData/Roaming/npm/node_modules/@mermaid-js/mermaid-cli/src/index.js:551:17)
+    at async cli (file:///C:/Users/eruditewbt/AppData/Roaming/npm/node_modules/@mermaid-js/mermaid-cli/src/index.js:214:3)
+

@@ -1,0 +1,20 @@
+flowchart TD
+
+    root["Engineering Tree"]
+    trunk["Trunk Foundations"]
+    software["Software Systems"]
+    embedded["Embedded"]
+    energy["Energy"]
+    data["Data & AI"]
+
+    root --> trunk
+    trunk --> software
+    trunk --> embedded
+    trunk --> energy
+    trunk --> data
+
+    classDef trunkStyle fill:#111,color:#fff,stroke:#333;
+    classDef branchStyle fill:#0a5,color:#fff;
+
+    class trunk trunkStyle;
+    class software,embedded,energy,data branchStyle;
